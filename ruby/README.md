@@ -97,7 +97,7 @@ p File.open('test_script.sh').map.with_index.select{|e,| e =~ pattern}
 ## Chapter 3
 
 ### Do:
-- 
+- Modify the CSV application to support an each method to return a CsvRow object. Use methods_missing omn that CsvRow to return the values for the column for a given heading
 ```
 ruby ~/Projects/ruby-scripts/act_as_csv_module.rb
 ```

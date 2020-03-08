@@ -9,6 +9,8 @@
 - A style Guide with Io idioms
  - https://en.wikibooks.org/wiki/Io_Programming/Io_Style_Guide
 
+ [Io Guide](https://github.com/PerlChina/IoGuide/blob/master/IoGuide.md#assignment)
+
 
 ### Answer:
 
