@@ -1,2 +1,2 @@
-pattern = /pbcopy/
-p File.open('test_script.sh').map.with_index.select{|e,| e =~ pattern}
+# Sample Ruby Script
+puts "Hello this is printing from a Ruby scripts"
