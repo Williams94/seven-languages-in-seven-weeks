@@ -50,3 +50,21 @@
   - https://www.swi-prolog.org/dogfood.html
 
 ### Day Three
+
+#### Find print predicates that print out variables
+
+- https://www.swi-prolog.org/pldoc/man?predicate=print/1
+
+#### Find a way to use print predicates to print only successful solutions, how do they work?
+
+```
+test(2) :-
+    write('A is 2').
+test(3) :-
+    write('A is 3').
+test(A) :-
+    A \= 2, A \= 3,
+    write('Depending on the value of A a certain string will be ouput').
+```
+
+Here you could use to only print results that are correct.
